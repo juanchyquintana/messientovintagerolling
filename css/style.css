@@ -107,6 +107,10 @@ footer img {
   filter: brightness(0.4);
 }
 
+.sinEstilos {
+  text-decoration: none;
+}
+
 @media all and (max-width: 767px) {
   nav img {
       height: 100px;

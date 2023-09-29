@@ -1,0 +1,114 @@
+@media all and (max-width: 280px) {
+    .messiImagen {
+        display: none;
+      }
+
+    .bg-image {
+        width: 100vw;
+        height: 145vh;
+      }
+  
+}
+
+@media all and (min-width: 281px) and (max-width: 767px) {
+    .messiImagen {
+      display: none;
+    }
+  
+    .bg-image {
+      width: 100vw;
+      height: 125vh;
+    }
+
+  }
+  
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    .messiImagen {
+      display: none;
+    }
+  
+    .logo404 {
+      width: 40%;
+    }
+  
+    .bg-image {
+      width: 100vw;
+      height: 100vh;
+    }
+  }
+  
+  @media screen and (min-width: 992px) {
+    .messiImagen {
+      display: block;
+      width: 40%;
+    }
+
+    .bg-image {
+        width: 100vw;
+        height: 110vh;
+      }
+  
+  
+    .btn-effect a {
+      text-decoration: none;
+      text-transform: uppercase;
+      background-color: #111;
+      padding: 16px 24px;
+      border-radius: 6px;
+      transition: 0.3s;
+    }
+  
+    .btn-effect:hover a {
+      background: none;
+    }
+  
+    .btn-effect:active {
+      transform: scale(0.9);
+    }
+  
+    .animation-smooth {
+      margin: 0px 50px;
+      width: 90ch;
+      white-space: nowrap;
+      animation: typing 2s steps(100), effect 0.5s step-end infinite alternate;
+      overflow: hidden;
+      transition: all 0.5s;
+    }
+  
+    .animation-smooth2 {
+      transition: all 0.5s;
+    }
+  
+    .animation-smooth:hover {
+      transform: scale(1.15);
+    }
+  
+    .animation-smooth2:hover {
+      transform: scale(1.03);
+    }
+  
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+    }
+  
+    @keyframes effect {
+      50% {
+        border-color: transparent;
+      }
+    }
+  }
+  
+  @media all and (min-width: 993px) and (max-width: 1024px) {
+    .messiImagen {
+      display: block;
+      width: 30%;
+    }
+
+    .bg-image {
+        width: 100vw;
+        height: 150vh;
+      }
+  
+  }
