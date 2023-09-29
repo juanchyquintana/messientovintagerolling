@@ -40,11 +40,17 @@ i {
   width: 145px;
 }
 
-
-@media all and (min-width: 280px) and (max-width: 767px) {
+@media all and (max-width: 280px) {
   .bg-image {
     width: 100vw;
-    height: 155vh;
+    height: 165vh;
+  }
+}
+
+@media all and (min-width: 281px) and (max-width: 767px) {
+  .bg-image {
+    width: 100vw;
+    height: 167vh;
   }
 
   .imagenLogo {
@@ -68,7 +74,7 @@ i {
 @media screen and (min-width: 992px) {
   .bg-image {
     width: 100vw;
-    height: 111vh;
+    height: 130vh;
   }
 
   .imagenLogo {
@@ -80,6 +86,6 @@ i {
 @media all and (min-width: 993px) and (max-width: 1024px) {
   .bg-image {
     width: 100vw;
-    height: 137vh;
+    height: 160vh;
   }
 }
