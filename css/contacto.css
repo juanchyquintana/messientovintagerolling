@@ -1,0 +1,104 @@
+body {
+    overflow-x: hidden;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+}
+
+i {
+    color: black;
+}
+
+footer img {
+    height: 100px;
+    width: 145px;
+}
+
+
+.contact-explain {
+    background-color: #E3E3E3;
+}
+
+@media all and (max-width: 767px) {
+    nav img {
+        height: 100px;
+        width: 145px;
+    }
+}
+
+/* dispositivos md */
+@media all and (min-width:768px) and (max-width: 991px) {
+    nav img {
+        height: 100px;
+        width: 145px;
+    }
+}
+
+/* dispositivos grandes lg */
+@media all and (min-width: 992px) {
+    nav img {
+        height: 100px;
+        width: 200px;
+    }
+}
+
+.bg-image {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    left: 0;
+    z-index: -1;
+    filter: brightness(0.4);
+}
+
+.btn-effect {
+    border: 0;
+    background-image: linear-gradient(150deg, #2b9dc8, #26afb4, #b0da8c);
+    border-radius: 8px;
+    display: flex;
+    font-size: 14px;
+    padding: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-effect a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 16px 24px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+
+@media all and (min-width: 280px) and (max-width: 767px) {
+    .bg-image {
+        width: 100vw;
+        height: 120vh;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+    .bg-image {
+        width: 100vw;
+        height: 65vh;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .bg-image {
+        width: 100vw;
+        height: 90vh;
+    }
+}
+
+@media all and (min-width: 993px) and (max-width: 1024px) {
+    .bg-image {
+        width: 100vw;
+        height: 120vh;
+    }
+}

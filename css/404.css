@@ -1,0 +1,204 @@
+body {
+    overflow-x: hidden;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main {
+    flex-grow: 1;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    font-family: "Actor", sans-serif;
+  }
+  
+  i {
+    color: black;
+  }
+  
+  .footerLogo {
+    height: 100px;
+    width: 145px;
+  }
+  
+  .text-404 {
+    font-family: "Bungee Shade", cursive;
+  }
+  
+  .spaceLogo {
+    padding-top: 100px;
+    padding-bottom: 60px;
+  }
+  
+  .bg-image {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .btn-effect {
+    border: 0;
+    background-image: linear-gradient(150deg, #2b9dc8, #26afb4, #b0da8c);
+    border-radius: 8px;
+    display: flex;
+    font-size: 14px;
+    padding: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .btn-effect a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 16px 24px;
+    border-radius: 6px;
+    transition: 0.3s;
+  }
+  
+  @media all and (min-width: 280px) and (max-width: 767px) {
+    .maradonaImagen {
+      display: none;
+    }
+  
+    .text-404 {
+      font-size: 79px;
+      color: #fff;
+    }
+  
+    .logo404 {
+      width: 50%;
+    }
+  
+    .bg-image {
+      width: 100vw;
+      height: 100vh;
+    }
+  
+    .imagenLogo {
+      height: 100px;
+      width: 145px;
+    }
+  }
+  
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    .maradonaImagen {
+      display: none;
+    }
+  
+    .logo404 {
+      width: 40%;
+    }
+  
+    .text-404 {
+      font-size: 200px;
+      color: #fff;
+    }
+  
+    .bg-image {
+      width: 100vw;
+      height: 100vh;
+    }
+  
+    .imagenLogo {
+      height: 100px;
+      width: 145px;
+    }
+  }
+  
+  @media screen and (min-width: 992px) {
+    .maradonaImagen {
+      display: block;
+      width: 40%;
+    }
+  
+    .imagenLogo {
+      height: 100px;
+      width: 200px;
+    }
+  
+    .spaceLogo {
+      padding-top: 85px;
+    }
+  
+    .logo404 {
+      width: 50%;
+    }
+  
+    .text-404 {
+      font-size: 140px;
+      color: #fff;
+    }
+  
+    .btn-effect a {
+      text-decoration: none;
+      text-transform: uppercase;
+      background-color: #111;
+      padding: 16px 24px;
+      border-radius: 6px;
+      transition: 0.3s;
+    }
+  
+    .btn-effect:hover a {
+      background: none;
+    }
+  
+    .btn-effect:active {
+      transform: scale(0.9);
+    }
+  
+    .animation-smooth {
+      margin: 0px 50px;
+      width: 90ch;
+      white-space: nowrap;
+      animation: typing 2s steps(100), effect 0.5s step-end infinite alternate;
+      overflow: hidden;
+      transition: all 0.5s;
+    }
+  
+    .animation-smooth2 {
+      transition: all 0.5s;
+    }
+  
+    .animation-smooth:hover {
+      transform: scale(1.15);
+    }
+  
+    .animation-smooth2:hover {
+      transform: scale(1.03);
+    }
+  
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+    }
+  
+    @keyframes effect {
+      50% {
+        border-color: transparent;
+      }
+    }
+  }
+  
+  @media all and (min-width: 993px) and (max-width: 1024px) {
+    .bg-image {
+      width: 100vw;
+      height: 100vh;
+    }
+  
+    .maradonaImagen {
+      display: block;
+      width: 30%;
+    }
+  
+    .spaceLogo {
+      padding: 0 0 30px 0;
+    }
+  }

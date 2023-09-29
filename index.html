@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/ab0a9c01b8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="./css/navbar-Footer.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="icon" type="image/png" href="./img/icon.png">
+    <title>Messiento Vintage</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg shadow bg-dark navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="/img/modelo4.png" alt="" srcset="" class="img-fluid ">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-center" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Productos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Version jugador</a></li>
+                                <li><a class="dropdown-item" href="#">Version hincha</a></li>
+                                <li><a class="dropdown-item" href="#">Accesorios</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="./pages/talles.html">Guía de talles</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html" aria-disabled="true">Contacto</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex me-auto" role="search">
+                        <input class="form-control me-2" type="search" placeholder="¿Qué estás buscando?" aria-label="Search">
+                        <button class="btn btn-light" type="submit">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </form>
+                    <div class="col-lg-2 ms-auto">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 col-lg-1 ms-lg-5 d-flex flex-row gap-lg-3">
+                            <li class="nav-item dropdown my-2 my-lg-0 col-6 text-center">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <i class="fa-solid fa-user fa-xl text-white"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Crear cuenta</a></li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Iniciar sesión</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item my-2 my-lg-0 col-6 text-center">
+                                <a class="nav-link" href="#"><i
+                                        class="fa-solid fa-cart-shopping fa-xl ms-lg-4 me-lg-5 col-lg-1 text-white"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="mainBanner">
+            <div id="bannerCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="CarouselLimitImg carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/index/WALLPAPER.jpg" class="d-block w-100 img-carouselProducts" alt="...">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="categories container-fluid container-lg my-5 ">
+
+            <div class="countries-shirts mt-5">
+                <div class="d-flex justify-content-between">
+                    <h2>Selecciones</h2>
+                    <a class="fs-4 link-primary link-underline-opacity-0 pe-lg-4" href="#">Ver mas</a>
+                </div>
+
+
+                <article class="productCardsContainer mt-4">
+                    <div class="px-2 col-lg-3">
+                        <div class="productCard card h-100">
+                            <img src="./img/camisetas/selecciones/Argentina-titular-1986.png"
+                                class="card-img-top imagenCamiseta" alt="Camiseta Argentina titular 1986">
+                            <div class="card-body">
+                                <h5 class="card-title">Camiseta local Argentina 1986</h5>
+                                <p class="card-text">Incluye el numero 10 y el nombre de Maradona en el dorsal</p>
+                                <!-- <ul>
+                                    <li>Lorem ipsum dolor sit amet.</li>
+                                </ul> -->
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="px-2 col-lg-3">
+                        <div class="productCard card h-100">
+                            <img src="./img/camisetas/selecciones/Alemania-titular-1990.png"
+                                class="card-img-top imagenCamiseta" alt="Camiseta Alemania titular 1990">
+                            <div class="card-body">
+                                <h5 class="card-title">Camiseta local Alemania 1990</h5>
+                                <p class="card-text">No incluye numero ni nombre de jugador</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="px-2 col-lg-3">
+                        <div class="productCard card h-100">
+                            <img src="./img/camisetas/selecciones/francia-titular-1998.png"
+                                class="card-img-top imagenCamiseta" alt="Camiseta Francia titular 1998">
+                            <div class="card-body">
+                                <h5 class="card-title">Camiseta local Francia 1998</h5>
+                                <p class="card-text">Incluye el numero 10 en el frente y en el dorsal el numero 10 y el
+                                    nombre de Zidane</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="px-2 col-lg-3">
+                        <div class="productCard card h-100">
+                            <img src="./img/camisetas/selecciones/italia-titular-1994.png"
+                                class="card-img-top imagenCamiseta" alt="Camiseta Italia titular 1994">
+                            <div class="card-body">
+                                <h5 class="card-title">Camiseta local Italia 1994</h5>
+                                <p class="card-text">No incluye numero ni nombre de jugador</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </article>
+
+
+            </div>
+
+            <div class="argentina-teams mt-5">
+                <div class="d-flex justify-content-between">
+                    <h2>Clubes de Argentina</h2>
+                    <a class="fs-4 link-primary link-underline-opacity-0 pe-lg-4" href="#">Ver mas</a>
+                </div>
+
+
+                <article class="productCardsContainer mt-4">
+                    <div class="px-2 col-lg-3">
+                        <div class="productCard card h-100">
+                            <img src="./img/camisetas/clubesArgentinos/River-Local-1996.jpg"
+                                class="card-img-top imagenCamiseta" alt="Camiseta River Plate local 1996">
+                            <div class="card-body">
+                                <h5 class="card-title">Camiseta local River Plate 1996</h5>
+                                <p class="card-text">Incluye el numero 9 y el nombre de Francescoli en el dorsal</p>
+                                <!-- <ul>
+                                    <li>Lorem ipsum dolor sit amet.</li>
+                                </ul> -->
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="px-2 col-lg-3">
+                        <div class="productCard card h-100">
+                            <img src="./img/camisetas/clubesArgentinos/Boca-local-1997.png"
+                                class="card-img-top imagenCamiseta" alt="Camiseta Boca Juniors local 1997">
+                            <div class="card-body">
+                                <h5 class="card-title">Camiseta local Boca Juniors 1997</h5>
+                                <p class="card-text">Incluye el numero 10 y el nombre de Maradona en el dorsal</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="px-2 col-lg-3">
+                        <div class="productCard card h-100">
+                            <img src="./img/camisetas/clubesArgentinos/Velez-local-1996.jpg"
+                                class="card-img-top imagenCamiseta" alt="Camiseta Velez Sarsfield local 1996">
+                            <div class="card-body">
+                                <h5 class="card-title">Camiseta local Velez Sarsfield 1996</h5>
+                                <p class="card-text">No incluye número ni nombre de jugador</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="px-2 col-lg-3">
+                        <div class="productCard card h-100">
+                            <img src="./img/camisetas/clubesArgentinos/SanLorenzo-local-1991.png"
+                                class="card-img-top imagenCamiseta" alt="Camiseta San Lorenzo de Almagro local 1991">
+                            <div class="card-body">
+                                <h5 class="card-title">Camiseta local San Lorenzo de Almagro 1991</h5>
+                                <p class="card-text">No incluye número ni nombre de jugador</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </article>
+
+
+            </div>
+
+            <div class="international-teams mt-5">
+                <div class="d-flex justify-content-between">
+                    <h2>Clubes internacionales</h2>
+                    <a class="fs-4 link-primary link-underline-opacity-0 pe-lg-4" href="#">Ver mas</a>
+                </div>
+
+
+                <article class="productCardsContainer mt-4">
+                    <div class="px-2 col-lg-3">
+                        <div class="productCard card h-100">
+                            <img src="./img/camisetas/clubesInternacionales/Napoli-titular-1986.png"
+                                class="card-img-top imagenCamiseta" alt="Camiseta local Napoli 1986">
+                            <div class="card-body">
+                                <h5 class="card-title">Camiseta local Napoli 1986</h5>
+                                <p class="card-text">Incluye el número 10 en el dorsal</p>
+                                <!-- <ul>
+                                    <li>Lorem ipsum dolor sit amet.</li>
+                                </ul> -->
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="px-2 col-lg-3">
+                        <div class="productCard card h-100">
+                            <img src="./img/camisetas/clubesInternacionales/Milan-titular-2002.png"
+                                class="card-img-top imagenCamiseta" alt="Camiseta local Milan 2002">
+                            <div class="card-body">
+                                <h5 class="card-title">Camiseta local Milan 2002</h5>
+                                <p class="card-text">Incluye el numero 13 en el dorsal</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="px-2 col-lg-3">
+                        <div class="productCard card h-100">
+                            <img src="./img/camisetas/clubesInternacionales/Barcelona-titular-2004.png"
+                                class="card-img-top imagenCamiseta" alt="Camiseta local Barcelona 2004">
+                            <div class="card-body">
+                                <h5 class="card-title">Camiseta local Barcelona 2004</h5>
+                                <p class="card-text">Incluye el numero 10 y nombre de Ronaldinho en el dorsal</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="px-2 col-lg-3">
+                        <div class="productCard card h-100">
+                            <img src="./img/camisetas/clubesInternacionales/BayernMunich-titular-1997.jpg"
+                                class="card-img-top imagenCamiseta" alt="Camiseta titular Bayern Munich 1997">
+                            <div class="card-body">
+                                <h5 class="card-title">Camiseta titular Bayern Munich 1997</h5>
+                                <p class="card-text">No incluye numero ni nombre de jugador</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+        <section class="mainAdvertising container-fluid container-lg my-5 text-center">
+            <div class="">
+                <img src="./img/index/hostea-tu-web.png" class="img-fluid" alt="publicidad">
+            </div>
+        </section>
+    </main>
+
+    <footer class="border-top shadow-lg py-3">
+        <section class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-4 text-center text-lg-start mb-3 mb-lg-0">
+                    <img src="./img/logo.png" alt="logo de la empresa" />
+                    <!-- <h5>Messiento vintage</h5> -->
+                </div>
+                <div class="col-md-6 col-lg-4 text-center text-md-start">
+                    <h5>Más información</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="./pages/talles.html" class="link-dark link-underline-opacity-0 link-underline-opacity-25-hover">Guía
+                                de talles
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="link-dark link-underline-opacity-0 link-underline-opacity-25-hover">Cuidado de
+                                prendas
+
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="link-dark link-underline-opacity-0 link-underline-opacity-25-hover">Políticas de
+                                cambio o devolución
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-4 text-center text-md-start">
+                    <h5>Seguinos en nuestras redes sociales</h5>
+                    <a href="./pages/404.html" class="link-dark link-underline-opacity-0">
+                        <i class="bi bi-instagram fs-3"></i>
+                    </a>
+                    <a href="./pages/404.html" class="link-dark link-underline-opacity-0">
+                        <i class="bi bi-facebook fs-3 mx-3"></i>
+                    </a>
+                    <a href="./pages/404.html" class="link-dark link-underline-opacity-0">
+                        <i class="bi bi-twitter fs-3"></i>
+                    </a>
+                    <a href="./pages/404.html" class="link-dark link-underline-opacity-0">
+                        <i class="bi bi-tiktok fs-4 mx-3"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

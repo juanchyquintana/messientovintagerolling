@@ -1,0 +1,31 @@
+i {
+    color: black;
+}
+
+footer img {
+    height: 100px;
+    width: 145px;
+}
+
+@media all and (max-width: 767px) {
+    nav img {
+        height: 100px;
+        width: 145px;
+    }
+}
+
+/* dispositivos md */
+@media all and (min-width:768px) and (max-width: 991px) {
+    nav img {
+        height: 100px;
+        width: 145px;
+    }
+}
+
+/* dispositivos grandes lg */
+@media all and (min-width: 992px) {
+    nav img {
+        height: 100px;
+        width: 200px;
+    }
+}

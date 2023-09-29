@@ -1,0 +1,85 @@
+body {
+  overflow-x: hidden;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Actor", sans-serif;
+}
+
+i {
+  color: black;
+}
+
+.bg-image {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  filter: brightness(0.3);
+}
+
+.spaceLogo {
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+
+.footerLogo {
+  height: 100px;
+  width: 145px;
+}
+
+
+@media all and (min-width: 280px) and (max-width: 767px) {
+  .bg-image {
+    width: 100vw;
+    height: 155vh;
+  }
+
+  .imagenLogo {
+    height: 100px;
+    width: 145px;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .bg-image {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .imagenLogo {
+    height: 100px;
+    width: 145px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .bg-image {
+    width: 100vw;
+    height: 111vh;
+  }
+
+  .imagenLogo {
+    height: 100px;
+    width: 200px;
+  }
+}
+
+@media all and (min-width: 993px) and (max-width: 1024px) {
+  .bg-image {
+    width: 100vw;
+    height: 137vh;
+  }
+}

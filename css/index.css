@@ -1,0 +1,92 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f3f3f3;
+}
+
+main {
+    flex-grow: 1;
+    background-color: #E3E3E3;
+}
+
+.imagenCamiseta {
+    aspect-ratio: 2/2;
+}
+
+@media all and (max-width: 575px) {
+
+    .productCard {
+        min-width: 14.375rem;
+        scroll-snap-align: start;
+    }
+}
+
+@media all and (max-width: 767px) {
+
+    .mainAdvertising {
+        display: none;
+    }
+}
+
+/* Carrusel de cards MOBILE y MD*/
+
+@media all and (max-width: 991px) {
+
+    .productCardsContainer {
+        scroll-behavior: smooth;
+        display: flex;
+        overflow: auto;
+        scroll-snap-type: x mandatory;
+    }
+
+    .productCard {
+        scroll-snap-align: start;
+    }
+}
+
+/* Dispositivos lg */
+
+@media all and (min-width: 992px) {
+
+
+    .mainBanner {
+        max-height: 70vh;
+        aspect-ratio: 10/6;
+        overflow: hidden;
+        min-width: 100%;
+    }
+
+    .img-carouselProducts {
+        max-height: 103vh;
+    }
+
+    .productCardsContainer {
+        /*Obtenido del archivo css de bootstrap*/
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: calc(var(--bs-gutter-y) * -1);
+        margin-right: calc(var(--bs-gutter-x) * -.5);
+        margin-left: calc(var(--bs-gutter-x) * -.5)
+    }
+
+    .mainAdvertising {
+        width: 75%;
+    }
+}
+
+
+/* control de width para las cards de productos en una medida especifica*/
+
+@media all and (min-width: 576px) and (max-width: 991px) {
+    .productCard {
+        min-width: 17.5rem;
+        scroll-snap-align: start;
+    }
+
+    .mainAdvertising {
+        width: 90%;
+    }
+}
