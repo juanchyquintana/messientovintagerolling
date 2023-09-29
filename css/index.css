@@ -1,10 +1,3 @@
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    background-color: #f3f3f3;
-}
-
 main {
     flex-grow: 1;
     background-color: #E3E3E3;
@@ -30,7 +23,6 @@ main {
 }
 
 /* Carrusel de cards MOBILE y MD*/
-
 @media all and (max-width: 991px) {
 
     .productCardsContainer {
@@ -46,7 +38,6 @@ main {
 }
 
 /* Dispositivos lg */
-
 @media all and (min-width: 992px) {
 
 
@@ -77,9 +68,7 @@ main {
     }
 }
 
-
 /* control de width para las cards de productos en una medida especifica*/
-
 @media all and (min-width: 576px) and (max-width: 991px) {
     .productCard {
         min-width: 17.5rem;
