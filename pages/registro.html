@@ -15,7 +15,7 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
     />
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/talles.css" />
+    <link rel="stylesheet" href="../css/regisLogin.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -140,85 +140,116 @@
       <section class="container my-5">
         <div>
           <img
-            src="../img/talles/messi.jpg"
+            src="../img/registroLogin/backgroundlogin.jpg"
             alt="fondo"
             class="img-fluid bg-image"
           />
         </div>
 
         <article class="row">
-          <div class="col-md-6 mb-3">
-            <div class="contenido">
-              <form>
-                <div class="form-group">
-                  <label for="nombre">Nombre y Apellido:</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="nombre"
-                    name="nombre"
-                  />
-                </div>
-                <div class="form-group">
-                  <label for="usuario">Nombre de Usuario:</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="usuario"
-                    name="usuario"
-                  />
-                </div>
-                <div class="form-group">
-                  <label for="telefono">Teléfono:</label>
-                  <input
-                    type="tel"
-                    class="form-control"
-                    id="telefono"
-                    name="telefono"
-                  />
-                </div>
-                <div class="form-group">
-                  <label for="domicilio">Domicilio:</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="domicilio"
-                    name="domicilio"
-                  />
-                </div>
-                <div class="form-group">
-                  <label for="codigo-postal">Código Postal:</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="codigo-postal"
-                    name="codigo-postal"
-                  />
-                </div>
-                <div class="form-group">
-                  <label for="exampleInputEmail1">Dirección de email:</label>
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="exampleInputEmail1"
-                    aria-describedby="emailHelp"
-                  />
-                </div>
-                <div class="form-group">
-                  <label for="contraseña">Contraseña:</label>
-                  <input type="password" class="form-control" id="contraseña" />
-                </div>
-                <button type="submit" class="btn btn-primary">Enviar</button>
-              </form>
+          <div class="col-lg-6 mb-3">
+            <div
+              class="d-flex justify-content-md-between align-items-lg-center animation-smooth"
+            >
+              <img
+                src="../img/registroLogin/messi.png"
+                alt="camiseta"
+                class="img-fluid messiImagen pt-lg-5"
+              />
             </div>
           </div>
 
           <div class="col-md-6 mb-3">
-            <img
-              src="../img/talles/camiseta.png"
-              alt="camiseta"
-              class="img-fluid"
-            />
+            <div class="form-control p-3">
+              <form>
+                <div class="mb-3">
+                  <label for="datos" class="form-label">Nombre y Apellido:</label>
+                  <input
+                    type="text"
+                    id="datos"
+                    class="form-control"
+                    placeholder="Ej: Juan Perez"
+                    required
+                    minlength="5"
+                    maxlength="100"
+                  />
+                </div>
+  
+                <div class="mb-3">
+                  <label for="usuario" class="form-label">Nombre de Usuario</label>
+                  <input
+                    type="text"
+                    id="usuario"
+                    class="form-control"
+                    placeholder="Ej: pepito123"
+                    required
+                    minlength="2"
+                    maxlength="50"
+                  />
+                </div>
+
+                <div class="mb-3">
+                  <label for="telefono" class="form-label">Teléfono:</label>
+                  <input
+                    type="tel"
+                    id="telefono"
+                    class="form-control"
+                    placeholder="Ej: 123456789"
+                    required
+                    minlength="2"
+                    maxlength="20"
+                  />
+                </div>
+  
+                <div class="mb-3">
+                  <label for="codigopostal" class="form-label"
+                    >Código Postal:</label
+                  >
+                  <input
+                    type="text"
+                    id="codigopostal"
+                    class="form-control"
+                    placeholder="Ej: 4000"
+                    required
+                    minlength="5"
+                    maxlength="20"
+                  />
+                </div>
+  
+                <div class="mb-3">
+                  <label for="email" class="form-label">Dirección de Email:</label>
+                  <input
+                    type="email"
+                    id="email"
+                    class="form-control"
+                    placeholder="Ej: correo@correo.com"
+                    required
+                    minlength="10"
+                    maxlength="50"
+                  />
+                </div>                
+                
+                <div class="mb-3">
+                  <label for="password" class="form-label">Password</label>
+                  <input
+                    type="password"
+                    id="password"
+                    class="form-control"
+                    placeholder="Password"
+                    required
+                    minlength="8"
+                    maxlength="65"
+                  />
+                </div>
+                
+                <div class="mb-3">
+                  <input type="checkbox" name="terminos" id="">
+                  <label for="terminos">Acepto los términos y condiciones</label>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Registrarme</button>
+              </form>
+            </div>
           </div>
         </article>
       </section>
