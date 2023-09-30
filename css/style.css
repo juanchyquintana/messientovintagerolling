@@ -112,6 +112,10 @@ footer img {
 }
 
 @media all and (max-width: 767px) {
+  #messi-pulgares-arriba{
+    width: 190%;
+}
+
   nav img {
       height: 100px;
       width: 145px;
@@ -120,6 +124,11 @@ footer img {
 
 /* dispositivos md */
 @media all and (min-width:768px) and (max-width: 991px) {
+  #messi-pulgares-arriba{
+    width: 150%;
+    margin: auto;
+}
+
   nav img {
       height: 100px;
       width: 145px;
@@ -128,6 +137,10 @@ footer img {
 
 /* dispositivos grandes lg */
 @media all and (min-width: 992px) {
+  #messi-pulgares-arriba{
+    width: 60%;
+}
+
   nav img {
       height: 100px;
       width: 200px;
