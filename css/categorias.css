@@ -1,0 +1,156 @@
+:root{
+    --color-bg: #f3f3f3;
+    --color-palete1: #2b9dc8;
+    --color-palete2:#26afb4;
+    --color-palete3:#b0da8c;
+    --color-palete4: #e8e8c3;
+    --color-palete5: #dfa1d6;
+}
+
+/* Encabezado de categorías */
+.categoria{
+    height: 240px;
+}
+/* Tarjetas de las categorías */
+.cardCat{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    color: var(--color-bg);
+}
+
+#catTitulo{
+    height: 150px;
+    color: var(--color-bg);
+    background-color: var(--color-palete1);
+    padding: 0 50px;
+}
+
+.cardEfect{
+    background-color: #00000099;
+}
+
+.cardEfect:hover{
+    background-color: #00000033;
+}
+/* Img de las categorías */
+#catFem{
+    background-image: url(https://distintaslatitudes.net/storage/2019/10/once-ideal-futbol-femeni-america-latina-portada.jpg);
+}
+
+#catNac{
+    background-image: url(https://reddemediosmisiones.com.ar/download/multimedia.normal.b62fa702e1e34fde.64653939474a6338455f31323930783736305f5f312d373638783435325f6e6f726d616c2e77656270.webp);
+}
+
+#catInt{
+    background-image: url(https://wallpapercave.com/wp/wp11863454.jpg);
+}
+
+#catSel{
+    background-image: url(https://w0.peakpx.com/wallpaper/367/115/HD-wallpaper-different-team-football-players-football.jpg);
+}
+
+#catEsp{
+    background-image: url(https://www.sportspromedia.com/wp-content/uploads/2022/10/Copy-of-Copy-of-WP-News-story-template-66-1.jpg);
+}
+
+#catBas{
+    background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/infobae/6X5IJSF665HKRKRMQOC3MQXSOY.jpg);
+}
+
+.card{
+    width: 24%;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 576px) {
+    .categoria{
+        height: 150px;
+    }
+    .card{
+        width: 46%;
+    }
+    .catItem{
+        font-size: 1rem;
+    }
+    .bannerCat{
+        padding-left:15px;
+        height: 100px;
+    }
+
+}
+
+@media screen and (min-width:577px) and (max-width:767px){
+    .card{
+        width: 32%;
+    }
+    .bannerCat{
+        padding-left: 40px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .bannerCat{
+        padding-left: 50px;
+    }
+
+}
+
+/* TITULOS CATEGORIAS HTML */
+.bannerCat{
+    height: 150px;
+    background-color: var(--color-palete1);
+}
+
+/* Estilo carousel */
+.carousel-item{
+    height: 400px;
+}
+.carousel-item img{
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Botones parte baja del slide */
+#imgMini1{
+    min-height: 70px;
+    min-width: 70px;
+    background-image: url('../img/futNacional/boc98.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FFF;
+}
+
+#imgMini2{
+    min-height: 70px;
+    min-width: 70px;
+    background-image: url('../img/futNacional/boc98m2.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FFF;
+}
+
+#imgMini3{
+    min-height: 70px;
+    min-width: 70px;
+    background-image: url('../img/futNacional/boca98m3.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #FFF;
+    background-position: center;
+}
+
+.productoDer{
+    max-height: 100vh;
+}
+
+/* .productoIzq{
+
+} */
+
+.detalle {
+    background-color: #d3d3d3;
+}
