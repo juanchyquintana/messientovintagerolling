@@ -5,9 +5,13 @@
 
     .bg-image {
         width: 100vw;
-        height: 145vh;
+        height: 160vh;
       }
-  
+
+     .bg-imageRegistro {
+      width: 100vw;
+      height: 160vh;
+     }  
 }
 
 @media all and (min-width: 281px) and (max-width: 767px) {
@@ -17,8 +21,13 @@
   
     .bg-image {
       width: 100vw;
-      height: 125vh;
+      height: 140vh;
     }
+
+    .bg-imageRegistro {
+      width: 100vw;
+      height: 140vh;
+     }  
 
   }
   
@@ -35,6 +44,11 @@
       width: 100vw;
       height: 100vh;
     }
+
+    .bg-imageRegistro {
+      width: 100vw;
+      height: 100vh;
+     }  
   }
   
   @media screen and (min-width: 992px) {
@@ -45,27 +59,15 @@
 
     .bg-image {
         width: 100vw;
-        height: 110vh;
+        height: 100vh;
       }
+
+      .bg-imageRegistro {
+        width: 100vw;
+        height: 100vh;
+       }  
   
-  
-    .btn-effect a {
-      text-decoration: none;
-      text-transform: uppercase;
-      background-color: #111;
-      padding: 16px 24px;
-      border-radius: 6px;
-      transition: 0.3s;
-    }
-  
-    .btn-effect:hover a {
-      background: none;
-    }
-  
-    .btn-effect:active {
-      transform: scale(0.9);
-    }
-  
+ 
     .animation-smooth {
       margin: 0px 50px;
       width: 90ch;
@@ -108,7 +110,25 @@
 
     .bg-image {
         width: 100vw;
-        height: 150vh;
+        height: 180vh;
       }
+
+      .bg-imageRegistro {
+        width: 100vw;
+        height: 180vh;
+       }  
   
   }
+
+  @media all and (min-width: 1280px) and (max-width: 1920px) {
+    .bg-image {
+      width: 100vw;
+      height: 110vh;
+    }
+
+    .bg-imageRegistro {
+      width: 100vw;
+      height: 129vh;
+     }  
+  }
+
