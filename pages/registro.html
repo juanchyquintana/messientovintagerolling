@@ -116,13 +116,11 @@
                     </li>
                   </ul>
                 </li>
-                <li class="nav-item my-2 my-lg-0 col-6 text-center">
-                  <a class="nav-link" href="#"
-                    ><i
-                      class="fa-solid fa-cart-shopping fa-xl ms-lg-4 me-lg-5 col-lg-1"
-                    ></i
-                  ></a>
-                </li>
+                <li class="nav-item my-2 my-lg-0 col-6 d-flex d-lg-block justify-content-center">
+                  <button class="nav-link" data-bs-toggle="modal" data-bs-target="#modal-Carrito" >
+                      <i class="fa-solid fa-cart-shopping fa-xl ms-lg-4 me-lg-5 col-lg-1"></i>
+                  </button>
+              </li>
               </ul>
             </div>
           </div>
@@ -163,7 +161,9 @@
             <div class="form-control p-3">
               <form>
                 <div class="mb-3">
-                  <label for="datos" class="form-label">Nombre y Apellido:</label>
+                  <label for="datos" class="form-label"
+                    >Nombre y Apellido:</label
+                  >
                   <input
                     type="text"
                     id="datos"
@@ -174,9 +174,11 @@
                     maxlength="100"
                   />
                 </div>
-  
+
                 <div class="mb-3">
-                  <label for="usuario" class="form-label">Nombre de Usuario</label>
+                  <label for="usuario" class="form-label"
+                    >Nombre de Usuario</label
+                  >
                   <input
                     type="text"
                     id="usuario"
@@ -200,7 +202,7 @@
                     maxlength="20"
                   />
                 </div>
-  
+
                 <div class="mb-3">
                   <label for="codigopostal" class="form-label"
                     >Código Postal:</label
@@ -215,9 +217,11 @@
                     maxlength="20"
                   />
                 </div>
-  
+
                 <div class="mb-3">
-                  <label for="email" class="form-label">Dirección de Email:</label>
+                  <label for="email" class="form-label"
+                    >Dirección de Email:</label
+                  >
                   <input
                     type="email"
                     id="email"
@@ -227,8 +231,8 @@
                     minlength="10"
                     maxlength="50"
                   />
-                </div>                
-                
+                </div>
+
                 <div class="mb-3">
                   <label for="password" class="form-label">Password</label>
                   <input
@@ -241,19 +245,147 @@
                     maxlength="65"
                   />
                 </div>
-                
+
                 <div class="mb-3">
-                  <input type="checkbox" name="terminos" id="">
-                  <label for="terminos">Acepto los términos y condiciones</label>
+                  <input
+                    type="checkbox"
+                    name="terminos"
+                    id="terminos"
+                    required
+                  />
+                  <label for="terminos"
+                    >Acepto los términos y condiciones</label
+                  >
                 </div>
 
-                <button type="submit" class="btn btn-primary">Registrarme</button>
+                <button type="submit" class="btn btn-primary">
+                  Registrarme
+                </button>
               </form>
             </div>
           </div>
         </article>
       </section>
     </main>
+
+    <!-- Modal -->
+    <section
+      class="modal fade"
+      id="modal-Carrito"
+      tabindex="-1"
+      aria-labelledby="label-Modal-Carrito"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="label-Modal-Carrito">Carrito</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body container-fluid">
+            <article class="w-100 row border rounded p-2 m-0 mb-2">
+              <div class="col-4 p-0">
+                <div class="col-12 border p-0 img-Carrito">
+                  <img
+                    src="../img/camisetas/clubesArgentinos/River-Local-1996.jpg"
+                    alt="camiseta river plate"
+                    class="w-100"
+                  />
+                </div>
+              </div>
+
+              <div class="col-8 p-0 container-fluid ps-2">
+                <div class="row d-flex flex-column h-100">
+                  <div class="col-12 ps-2 pe-0 fw-bold">
+                    Camiseta titular River Plate 1996
+                  </div>
+
+                  <div class="col-12 ps-2 pe-0 flex-grow-1">
+                    Cantidad: <b>1</b>
+                  </div>
+
+                  <div class="col-12 ps-2 pe-0">Talle: <b>L</b></div>
+
+                  <div class="col-12">
+                    <ul class="pagination my-2">
+                      <li class="page-item" aria-current="page">
+                        <a class="page-link" href="">-</a>
+                      </li>
+                      <li class="page-item">
+                        <a class="page-link" href="">1</a>
+                      </li>
+                      <li class="page-item">
+                        <a class="page-link" href="">+</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-12 ps-2 pe-0 fw-bold">$19.000</div>
+                </div>
+              </div>
+            </article>
+
+            <article class="w-100 row border rounded p-2 m-0 mb-2">
+              <div class="col-4 p-0">
+                <div class="col-12 border p-0 img-Carrito">
+                  <img
+                    src="../img/camisetas/clubesInternacionales/Milan-titular-2002.png"
+                    alt="Camiseta titular Milan 2002"
+                    class="w-100"
+                  />
+                </div>
+              </div>
+
+              <div class="col-8 p-0 container-fluid ps-2">
+                <div class="row d-flex flex-column h-100">
+                  <div class="col-12 ps-2 pe-0 fw-bold">
+                    Camiseta titular Milan 2002
+                  </div>
+
+                  <div class="col-12 ps-2 pe-0 flex-grow-1">
+                    Cantidad: <b>1</b>
+                  </div>
+
+                  <div class="col-12 ps-2 pe-0">Talle: <b>L</b></div>
+
+                  <div class="col-12">
+                    <ul class="pagination my-2">
+                      <li class="page-item" aria-current="page">
+                        <a class="page-link" href="">-</a>
+                      </li>
+                      <li class="page-item">
+                        <a class="page-link" href="">1</a>
+                      </li>
+                      <li class="page-item">
+                        <a class="page-link" href="">+</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-12 ps-2 pe-0 fw-bold">$22.000</div>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="modal-footer">
+            <p class="fw-bold text-start">Total: $41.000</p>
+          </div>
+
+          <div class="modal-footer">
+            <button class="btn btn-primary">
+              <a
+                href="./pages/404.html"
+                class="text-white link text-decoration-none"
+                >Confirmar compra</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <footer class="py-lg-4 mt-lg-5 bg-light shadow-lg">
       <section class="container">
