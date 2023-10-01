@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/png" href="../img/icon.png" />
+    <link rel="icon" type="image/png" href="../../img/icon.png" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -14,8 +14,8 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
     />
-    <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/categorias.css" />
+    <link rel="stylesheet" href="../../css/style.css" />
+    <link rel="stylesheet" href="../../css/categorias.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,14 +23,14 @@
       rel="stylesheet"
     />
 
-    <title>Messiento Vintage - Categorias</title>
+    <title>Messiento Vintage - Selecciones</title>
   </head>
   <body>
     <header>
       <nav class="navbar navbar-expand-lg bg-body-tertiary shadow">
         <div class="container">
-          <a class="navbar-brand" href="../index.html">
-            <img src="../img/logo.png" alt="logo" class="img-fluid" />
+          <a class="navbar-brand" href="../../index.html">
+            <img src="../../img/logo.png" alt="logo" class="img-fluid" />
           </a>
           <button
             class="navbar-toggler"
@@ -46,16 +46,16 @@
           <div class="collapse navbar-collapse text-center" id="navbarScroll">
             <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="../index.html"
+                <a class="nav-link" aria-current="page" href="../../index.html"
                   >Inicio</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                <a class="nav-link" href="../../pages/nosotros.html">Nosotros</a>
               </li>
               <li class="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle active fw-bold "
+                  class="nav-link dropdown-toggle active fw-bold"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -64,15 +64,15 @@
                   Camisetas
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="../pages/categorias.html">Categorias</a></li>
+                  <li><a class="dropdown-item" href="../categorias.html">Categorias</a></li>
                   <li>
                     <hr class="dropdown-divider" />
                   </li>
                   <li>
-                    <a class="dropdown-item" href="../pages/talles.html"
+                    <a class="dropdown-item" href="../../pages/talles.html"
                       >Guía de talles</a
                     >
-                    <a class="dropdown-item" href="../pages/cuidadoPrenda.html"
+                    <a class="dropdown-item" href="../../pages/cuidadoPrenda.html"
                       >Cuidado de Prendas</a
                     >
                   </li>
@@ -82,7 +82,7 @@
                 <a
                   class="nav-link"
                   aria-disabled="true"
-                  href="../pages/contacto.html"
+                  href="../../pages/contacto.html"
                   >Contacto</a
                 >
               </li>
@@ -94,7 +94,7 @@
                 placeholder="¿Qué estás buscando?"
                 aria-label="Search"
               />
-              <a class="btn btn-light" href="../pages/404.html">
+              <a class="btn btn-light" href="../../pages/404.html">
                 <i class="fa-solid fa-magnifying-glass"></i>
               </a>
             </form>
@@ -114,12 +114,12 @@
                   </a>
                   <ul class="dropdown-menu">
                     <li>
-                      <a class="dropdown-item" href="../pages/registro.html"
+                      <a class="dropdown-item" href="../../pages/registro.html"
                         >Crear cuenta</a
                       >
                     </li>
                     <li>
-                      <a class="dropdown-item" href="../pages/login.html"
+                      <a class="dropdown-item" href="../../pages/login.html"
                         >Iniciar sesión</a
                       >
                     </li>
@@ -145,102 +145,199 @@
       </nav>
     </header>
 
-    <!-- Encabezado de categorías -->
-    <section
-      id="catTitulo"
-      class="row align-items-start justify-content-center flex-column text-start m-0"
-    >
-      <h2 class="col-12">CATEGORÍAS</h2>
-      <p class="col-12">Seleccioná un tipo de camiseta para ver</p>
-    </section>
+    <!-- Encabezado: Categoría / subcategoría -->
+    <div class="bannerCat" aria-label="breadcrumb">
+      <ol class="d-flex h-100 align-content-center breadcrumb">
+        <li class="breadcrumb-item h5 catItem">
+          <a href="../categorias.html">CATEGORÍAS</a>
+        </li>
+        <li class="breadcrumb-item h5 catItem active" aria-current="page">
+          SELECCIONES
+        </li>
+      </ol>
+    </div>
 
-    <!-- Categorías -->
-    <main id="categorias" class="container-fluid text-center">
-      <section class="row">
-        <article class="categoria col-12 col-md-6 p-2">
-          <a
-            id="catNac"
-            href="paginasCategorias/nacional.html"
-            class="cardCat d-flex h-100 v-100"
-          >
-            <div
-              class="cardEfect w-100 h-100 m-0 d-flex justify-content-center align-items-center"
-            >
-              <h3>NACIONAL</h3>
-            </div>
-          </a>
-        </article>
+    <!-- Camisetas -->
+    <main class="container text-center">
+      <section class="pt-5 row justify-content-around">
+        <!-- Título categoría -->
+        <h4 class="col-12 mb-5 h3">Camisetas de Selecciones nacionales</h4>
+        <!-- Tarjeta con foto y detalles -->
+        <div class="card">
+          <img
+            src="../../img/camisetas/futSelecciones/ale92.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Alemania 92'</h5>
+            <p class="card-text">$25.000</p>
+            <a href="../../pages/404.html" class="btn btn-primary">Detalles</a>
+          </div>
+        </div>
 
-        <article class="categoria col-12 col-md-6 p-2">
-          <a
-            id="catInt"
-            href="paginasCategorias/internacional.html"
-            class="cardCat d-flex h-100 v-100"
-          >
-            <div
-              class="cardEfect w-100 h-100 m-0 d-flex justify-content-center align-items-center"
-            >
-              <h3>INTERNACIONAL</h3>
-            </div>
-          </a>
-        </article>
+        <div class="card">
+          <img
+            src="../../img/camisetas/futSelecciones/arg99.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Argentina 99'</h5>
+            <p class="card-text">$25.000</p>
+            <a href="../../pages/404.html" class="btn btn-primary">Detalles</a>
+          </div>
+        </div>
 
-        <article class="categoria col-12 col-md-6 p-2">
-          <a
-            id="catSel"
-            href="paginasCategorias/selecciones.html"
-            class="cardCat d-flex h-100 v-100"
-          >
-            <div
-              class="cardEfect w-100 h-100 m-0 d-flex justify-content-center align-items-center"
-            >
-              <h3>SELECCIONES</h3>
-            </div>
-          </a>
-        </article>
+        <div class="card">
+          <img
+            src="../../img/camisetas/futSelecciones/cro98.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Croacia 98'</h5>
+            <p class="card-text">$25.000</p>
+            <a href="../../pages/404.html" class="btn btn-primary">Detalles</a>
+          </div>
+        </div>
 
-        <article class="categoria col-12 col-md-6 p-2">
-          <a
-            id="catEsp"
-            href="paginasCategorias/esports.html"
-            class="cardCat d-flex h-100 v-100"
-          >
-            <div
-              class="cardEfect w-100 h-100 m-0 d-flex justify-content-center align-items-center"
-            >
-              <h3>E-SPORTS</h3>
-            </div>
-          </a>
-        </article>
+        <div class="card">
+          <img
+            src="../../img/camisetas/futSelecciones/fra82.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Francia 82'</h5>
+            <p class="card-text">$25.000</p>
+            <a href="../../pages/404.html" class="btn btn-primary">Detalles</a>
+          </div>
+        </div>
 
-        <article class="categoria col-12 col-md-6 p-2">
-          <a
-            id="catFem"
-            href="404.html"
-            class="cardCat d-flex h-100 v-100"
-          >
-            <div
-              class="cardEfect w-100 h-100 m-0 d-flex justify-content-center align-items-center"
-            >
-              <h3>FEMENINO</h3>
-            </div>
-          </a>
-        </article>
+        <div class="card">
+          <img
+            src="../../img/camisetas/futSelecciones/gha96.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Ghana 96'</h5>
+            <p class="card-text">$25.000</p>
+            <a href="../../pages/404.html" class="btn btn-primary">Detalles</a>
+          </div>
+        </div>
 
-        <article class="categoria col-12 col-md-6 p-2">
-          <a
-            id="catBas"
-            href="404.html"
-            class="cardCat d-flex h-100 v-100"
-          >
-            <div
-              class="cardEfect w-100 h-100 m-0 d-flex justify-content-center align-items-center"
-            >
-              <h3>BÁSQUET</h3>
-            </div>
-          </a>
-        </article>
+        <div class="card">
+          <img
+            src="../../img/camisetas/futSelecciones/ira88.jpeg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Irak 88'</h5>
+            <p class="card-text">$25.000</p>
+            <a href="../../pages/404.html" class="btn btn-primary">Detalles</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="../../img/camisetas/futSelecciones/jam98.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Jamaica 98'</h5>
+            <p class="card-text">$25.000</p>
+            <a href="../../pages/404.html" class="btn btn-primary">Detalles</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="../../img/camisetas/futSelecciones/mal91.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Malta 91'</h5>
+            <p class="card-text">$25.000</p>
+            <a href="../../pages/404.html" class="btn btn-primary">Detalles</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="../../img/camisetas/futSelecciones/mar98.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Marruecos 98'</h5>
+            <p class="card-text">$25.000</p>
+            <a href="../../pages/404.html" class="btn btn-primary">Detalles</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="../../img/camisetas/futSelecciones/mex98.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">México 98'</h5>
+            <p class="card-text">$25.000</p>
+            <a href="../../pages/404.html" class="btn btn-primary">Detalles</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="../../img/camisetas/futSelecciones/nig93.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Nigeria 93'</h5>
+            <p class="card-text">$25.000</p>
+            <a href="../../pages/404.html" class="btn btn-primary">Detalles</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="../../img/camisetas/futSelecciones/yug90.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Yugoslavia 90'</h5>
+            <p class="card-text">$25.000</p>
+            <a href="../../pages/404.html" class="btn btn-primary">Detalles</a>
+          </div>
+        </div>
       </section>
+
+      <!-- Paginación -->
+      <div class="paginacion mt-3" aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+          <li class="page-item disabled">
+            <a class="page-link">Anterior</a>
+          </li>
+          <li class="page-item active">
+            <a class="page-link" href="#selecciones">1</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="#nacionales">2</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">Siguiente</a>
+          </li>
+        </ul>
+      </div>
     </main>
 
     <!-- Modal -->
@@ -267,7 +364,7 @@
               <div class="col-4 p-0">
                 <div class="col-12 border p-0 img-Carrito">
                   <img
-                    src="../img/camisetas/clubesArgentinos/River-Local-1996.jpg"
+                    src="../../img/camisetas/clubesArgentinos/River-Local-1996.jpg"
                     alt="camiseta river plate"
                     class="w-100"
                   />
@@ -289,13 +386,13 @@
                   <div class="col-12">
                     <ul class="pagination my-2">
                       <li class="page-item" aria-current="page">
-                        <a class="page-link" href="../pages/404.html">-</a>
+                        <a class="page-link" href="../404.html">-</a>
                       </li>
                       <li class="page-item">
-                        <a class="page-link" href="">1</a>
+                        <a class="page-link" href="#">1</a>
                       </li>
                       <li class="page-item">
-                        <a class="page-link" href="../pages/404.html">+</a>
+                        <a class="page-link" href="../404.html">+</a>
                       </li>
                     </ul>
                   </div>
@@ -308,7 +405,7 @@
               <div class="col-4 p-0">
                 <div class="col-12 border p-0 img-Carrito">
                   <img
-                    src="../img/camisetas/clubesInternacionales/Milan-titular-2002.png"
+                    src="../../img/camisetas/clubesInternacionales/Milan-titular-2002.png"
                     alt="Camiseta titular Milan 2002"
                     class="w-100"
                   />
@@ -330,13 +427,13 @@
                   <div class="col-12">
                     <ul class="pagination my-2">
                       <li class="page-item" aria-current="page">
-                        <a class="page-link" href="../pages/404.html">-</a>
+                        <a class="page-link" href="../404.html">-</a>
                       </li>
                       <li class="page-item">
-                        <a class="page-link" href="">1</a>
+                        <a class="page-link" href="#">1</a>
                       </li>
                       <li class="page-item">
-                        <a class="page-link" href="../pages/404.html">+</a>
+                        <a class="page-link" href="../404.html">+</a>
                       </li>
                     </ul>
                   </div>
@@ -352,7 +449,7 @@
           <div class="modal-footer">
             <button class="btn btn-primary">
               <a
-                href="./pages/404.html"
+                href="../404.html"
                 class="text-white link text-decoration-none"
                 >Confirmar compra</a
               >
@@ -368,28 +465,28 @@
           <div
             class="col-md-12 col-lg-4 text-center text-lg-start mb-3 mb-lg-0"
           >
-            <img src="../img/logo.png" alt="logo de la empresa" />
+            <img src="../../img/logo.png" alt="logo de la empresa" />
           </div>
           <div class="col-md-6 col-lg-4 text-center text-md-start">
             <h5>Más información</h5>
             <ul class="list-unstyled">
               <li>
                 <a
-                  href="../pages/talles.html"
+                  href="../../pages/talles.html"
                   class="link-dark link-underline-opacity-0 link-underline-opacity-25-hover"
                   >Guía de talles
                 </a>
               </li>
               <li>
                 <a
-                  href="../pages/cuidadoPrenda.html"
+                  href="../../pages/cuidadoPrenda.html"
                   class="link-dark link-underline-opacity-0 link-underline-opacity-25-hover"
                   >Cuidado de prendas
                 </a>
               </li>
               <li>
                 <a
-                  href="../pages/politicaCambio.html"
+                  href="../../pages/politicaCambio.html"
                   class="link-dark link-underline-opacity-0 link-underline-opacity-25-hover"
                   >Políticas de cambio o devolución
                 </a>
@@ -399,25 +496,25 @@
           <div class="col-md-6 col-lg-4 text-center text-md-start">
             <h5>Seguinos en nuestras redes sociales</h5>
             <a
-              href="../pages/404.html"
+              href="../../pages/404.html"
               class="link-dark link-underline-opacity-0"
             >
               <i class="bi bi-instagram fs-3"></i>
             </a>
             <a
-              href="../pages/404.html"
+              href="../../pages/404.html"
               class="link-dark link-underline-opacity-0"
             >
               <i class="bi bi-facebook fs-3 mx-3"></i>
             </a>
             <a
-              href="../pages/404.html"
+              href="../../pages/404.html"
               class="link-dark link-underline-opacity-0"
             >
               <i class="bi bi-twitter fs-3"></i>
             </a>
             <a
-              href="../pages/404.html"
+              href="../../pages/404.html"
               class="link-dark link-underline-opacity-0"
             >
               <i class="bi bi-tiktok fs-4 mx-3"></i>

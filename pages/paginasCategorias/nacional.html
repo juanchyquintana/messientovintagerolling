@@ -23,9 +23,9 @@
       rel="stylesheet"
     />
 
-    <title>Messiento Vintage - Detalles</title>
+    <title>Messiento Vintage - Nacional</title>
   </head>
-  <body class="detalle">
+  <body>
     <header>
       <nav class="navbar navbar-expand-lg bg-body-tertiary shadow">
         <div class="container">
@@ -64,7 +64,7 @@
                   Camisetas
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="../../pages/categorias.html">Categorias</a></li>
+                  <li><a class="dropdown-item" href="../categorias.html">Categorias</a></li>
                   <li>
                     <hr class="dropdown-divider" />
                   </li>
@@ -145,238 +145,198 @@
       </nav>
     </header>
 
-    <!-- Encabezado: Categoría Selecciones -->
-    <section class="bannerCat" aria-label="breadcrumb">
+    <!-- Encabezado: Categoría / subcategoría -->
+    <div class="bannerCat" aria-label="breadcrumb">
       <ol class="d-flex h-100 align-content-center breadcrumb">
         <li class="breadcrumb-item h5 catItem">
-          <a href="categorias.html">CATEGORÍAS</a>
-        </li>
-        <li class="breadcrumb-item h5 catItem">
-          <a href="catNacional.html">CLUBES NACIONALES</a>
+          <a href="../categorias.html">CATEGORÍAS</a>
         </li>
         <li class="breadcrumb-item h5 catItem active" aria-current="page">
-          ESTUDIANTES
+          NACIONAL
         </li>
       </ol>
-    </section>
+    </div>
 
-    <!-- Camiseta -->
-    <main class="container">
-      <!-- parte izq, detalle parte der -->
-      <div class="mt-5 row">
-        <!-- Parte izquierda -->
-        <section class="productoIzq col-6">
-          <!-- Carrousel de imagenes -->
-          <div
-            id="carouselExampleIndicators"
-            class="carousel carousel-dark slide w-100 bg-light d-flex justify-content-center"
-          >
-            <div class="carousel-indicators">
-              <button
-                id="imgMini1"
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="0"
-                class="active"
-                aria-current="true"
-                aria-label="Slide 1"
-              ></button>
-              <button
-                id="imgMini2"
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="1"
-                aria-label="Slide 2"
-              ></button>
-              <button
-                id="imgMini3"
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="2"
-                aria-label="Slide 3"
-              ></button>
-            </div>
-            <!-- Botonones de carousel modificados por imgs -->
-            <div class="carousel-inner w-75">
-              <div class="carousel-item active">
-                <img
-                  src="../../img/futNacional/boc98.jpeg"
-                  class="d-block w-100"
-                  alt="..."
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="../../img/futNacional/boc98m2.webp"
-                  class="d-block w-100"
-                  alt="..."
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="../../img/futNacional/boca98m3.jpg"
-                  class="d-block w-100"
-                  alt="..."
-                />
-              </div>
-            </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Anterior</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Siguiente</span>
-            </button>
+    <!-- Camisetas -->
+    <main class="container text-center">
+      <section class="pt-5 row justify-content-around">
+        <!-- Título categoría -->
+        <h4 class="col-12 mb-5 h3">Camisetas de clubes Nacionales</h4>
+        <!-- Tarjeta con foto y detalles -->
+        <div class="card">
+          <img
+            src="../../img/camisetas/futNacional/ban98.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Banfield 98'</h5>
+            <p class="card-text">$25.000</p>
+            <a href="../paginasDetalle/detalleBanfield98.html" class="btn btn-primary">Detalles</a>
           </div>
+        </div>
 
-          <!-- Descripción y Comentarios -->
-          <div
-            class="accordion accordion-flush border-top"
-            id="accordionFlushExample"
-          >
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseOne"
-                  aria-expanded="false"
-                  aria-controls="flush-collapseOne"
-                >
-                  Detalles
-                </button>
-              </h2>
-              <div
-                id="flush-collapseOne"
-                class="accordion-collapse collapse"
-                data-bs-parent="#accordionFlushExample"
-              >
-                <div class="accordion-body">
-                  <p>
-                    Tela: Polyester <br />
-                    La mejor calidad asegurada. <br />
-                    Talles: S, X, L, XXL.<br />
-                    Hacer una tabla con esto
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseTwo"
-                  aria-expanded="false"
-                  aria-controls="flush-collapseTwo"
-                >
-                  Comentarios
-                </button>
-              </h2>
-              <div
-                id="flush-collapseTwo"
-                class="accordion-collapse collapse"
-                data-bs-parent="#accordionFlushExample"
-              >
-                <div class="accordion-body">
-                  <div class="card w-100">
-                    <div class="card-header">Juliana Perez</div>
-                    <div class="card-body">
-                      <p>
-                        Me encantó la camiseta. La tela ultraresistente y de
-                        buena calidad.
-                      </p>
-                      <p class="d-flex w-100 justify-content-end">
-                        <small class="text-body-secondary"
-                          >29 de Sep. 2023</small
-                        >
-                      </p>
-                    </div>
-                  </div>
-
-                  <div class="card w-100">
-                    <div class="card-header">Anónimo</div>
-                    <div class="card-body">
-                      <p>
-                        Me encantó la camiseta. La tela ultraresistente y de
-                        buena calidad.
-                      </p>
-                      <p class="d-flex w-100 justify-content-end">
-                        <small class="text-body-secondary"
-                          >29 de Sep. 2023</small
-                        >
-                      </p>
-                    </div>
-                  </div>
-
-                  <div class="card w-100">
-                    <div class="card-header">Anónimo</div>
-                    <div class="card-body">
-                      <p>
-                        Horrible la camiseta. Llegó todo rota. No lo recomiendo
-                      </p>
-                      <p class="d-flex w-100 justify-content-end">
-                        <small class="text-body-secondary"
-                          >28 de Sep. 2023</small
-                        >
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+        <div class="card">
+          <img
+            src="../../img/camisetas/futNacional/boc98.jpeg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Boca Jrs. 98'</h5>
+            <p class="card-text">$25.000</p>
+            <a href="../paginasDetalle/detalleBoca98.html" class="btn btn-primary">Detalles</a>
           </div>
-        </section>
+        </div>
 
-        <section
-          class="productoDer col-6 bg-light d-flex flex-column align-items-center justify-content-center"
-        >
-          <table class="table w-75">
-            <thead>
-              <tr>
-                <th scope="col"><h5>Selección Argentina</h5></th>
-              </tr>
-            </thead>
-            <tbody class="table-group-divider">
-              <tr>
-                <th scope="row">Precio</th>
-                <td>$8.900 x unidad</td>
-              </tr>
-              <tr>
-                <th scope="row">Talles</th>
-                <td>XS, S, M, L, XL</td>
-              </tr>
-              <tr>
-                <th scope="row">Disponibilidad</th>
-                <td colspan="2">20</td>
-              </tr>
-            </tbody>
-          </table>
+        <div class="card">
+          <img
+            src="../../img/camisetas/futNacional/bel98.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Belgrano 98'</h5>
+            <p class="card-text">$25.000</p>
+            <a href="../404.html" class="btn btn-primary">Detalles</a>
+          </div>
+        </div>
 
-          <a type="button" class="btn btn-primary mt-4" href="../404.html">
-            Agregar al carrito
-            <i class="fa-solid fa-cart-shopping fa-lg text-white"></i>
-          </a>
-        </section>
+        <div class="card">
+          <img
+            src="../../img/camisetas/futNacional/fer95.jpeg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Ferro 95'</h5>
+            <p class="card-text">$25.000</p>
+            <a href="../404.html" class="btn btn-primary">Detalles</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="../../img/camisetas/futNacional/lan95.jpeg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Lanús 95'</h5>
+            <p class="card-text">$25.000</p>
+            <a href="../404.html" class="btn btn-primary">Detalles</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="../../img/camisetas/futNacional/new97.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Newells 97'</h5>
+            <p class="card-text">$25.000</p>
+            <a href="../404.html" class="btn btn-primary">Detalles</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="../../img/camisetas/futNacional/plat98.jpeg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Platense 98'</h5>
+            <p class="card-text">$25.000</p>
+            <a href="../404.html" class="btn btn-primary">Detalles</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="../../img/camisetas/futNacional/ros95.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Rosario Central 95'</h5>
+            <p class="card-text">$25.000</p>
+            <a href="../404.html" class="btn btn-primary">Detalles</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="../../img/camisetas/futNacional/san98.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">San Lorenzo 98'</h5>
+            <p class="card-text">$25.000</p>
+            <a href="../404.html" class="btn btn-primary">Detalles</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="../../img/camisetas/futNacional/tall96.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Talleres 96'</h5>
+            <p class="card-text">$25.000</p>
+            <a href="../404.html" class="btn btn-primary">Detalles</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="../../img/camisetas/futNacional/tig98.jpeg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Tigre 98'</h5>
+            <p class="card-text">$25.000</p>
+            <a href="../404.html" class="btn btn-primary">Detalles</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="../../img/camisetas/futNacional/vel97.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Vélez 97'</h5>
+            <p class="card-text">$25.000</p>
+            <a href="../404.html" class="btn btn-primary">Detalles</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Paginación -->
+      <div class="paginacion mt-3" aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+          <li class="page-item disabled">
+            <a class="page-link">Anterior</a>
+          </li>
+          <li class="page-item active">
+            <a class="page-link" href="#selecciones">1</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="#nacionales">2</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">Siguiente</a>
+          </li>
+        </ul>
       </div>
     </main>
 
