@@ -199,15 +199,17 @@
                 <label for="pais" class="form-label text-white fw-bold"
                   >Pais</label
                 >
-                <input
-                  type="text"
-                  class="form-control focus-ring-primary"
-                  placeholder="Ej: Argentina"
-                  id="pais"
-                  required
-                  maxlength="60"
-                  minlength="3"
-                />
+                <select id="pais" class="form-select" required>
+                  <option selected disabled >--Selecciona una opción--</option>
+                  <option value="argentina">Argentina</option>
+                  <option value="brasil">Brasil</option>
+                  <option value="bolivia">Bolivia</option>
+                  <option value="chile">Chile</option>
+                  <option value="colombia">Colombia</option>
+                  <option value="ecuador">Ecuador</option>
+                  <option value="peru">Perú</option>
+                  <option value="venezuela">Venezuela</option>
+                </select>
               </div>
               <div class="mb-3">
                 <label for="provincia" class="form-label text-white fw-bold"
@@ -418,7 +420,7 @@
             <img src="../img/logo.png" alt="logo de la empresa" />
           </div>
           <div class="col-md-6 col-lg-4 text-center text-md-start">
-            <h5>Más información</h5>
+            <h5>Más Información</h5>
             <ul class="list-unstyled">
               <li>
                 <a
@@ -444,7 +446,7 @@
             </ul>
           </div>
           <div class="col-md-6 col-lg-4 text-center text-md-start">
-            <h5>Seguinos en nuestras redes sociales</h5>
+            <h5>Seguinos en nuestras Redes Sociales</h5>
             <a
               href="../pages/404.html"
               class="link-dark link-underline-opacity-0"
